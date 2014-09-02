@@ -40,7 +40,7 @@ var GIBCommunicationToolkit = (function () {
    */
   var getInstitution = function (facility_code, callback) {
     if (institutions.indexOf(facility_code) > -1) {
-      var url = 'api/' + facility_code.substr(0, 3) + '/' + facility_code + '.json';
+      var url = '{{ site.baseurl }}/api/' + facility_code.substr(0, 3) + '/' + facility_code + '.json';
 
       $.getJSON(url, function(data) {
         institution = data
@@ -110,7 +110,7 @@ var GIBCommunicationToolkit = (function () {
         verification_src:   {{ site.verification_src}}
       };
 
-      $('.right-content').parent().loadTemplate('va_files/2014/institution.html', data, {
+      $('.right-content').parent().loadTemplate('{{ site.baseurl }}/va_files/2014/institution.html', data, {
         afterInsert: function (elem) {
           var $sidebar   = $('.side-container'),
             $window  = $(window),
