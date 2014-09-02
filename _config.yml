@@ -6,7 +6,7 @@ redcarpet:
   extensions: ['hard_wrap', 'autolink']
 
 exclude: ['serve.sh', 'README.md', 'Rakefile']
-fileserver: 'http://com-toolkit-fileserver.herokuapp.com'
+fileserver: 'http://serene-meadow-6135.herokuapp.com'
 marketing_link_url: "'http://department-of-veterans-affairs.github.io/gi-bill-comparison-tool/'"
 verification_href: "'http://department-of-veterans-affairs.github.io/poe-school-verification?v=' + institution.facility_code"
 verification_src: "'http://department-of-veterans-affairs.github.io/poe/' + institution.facility_code + '.gif'"
