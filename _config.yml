@@ -10,3 +10,5 @@ fileserver: 'http://com-toolkit-fileserver.herokuapp.com'
 marketing_link_url: ''
 verification_href: ''
 verification_src: ''
+
+baseurl: '/gi-bill-communication-toolkit-for-poe'
