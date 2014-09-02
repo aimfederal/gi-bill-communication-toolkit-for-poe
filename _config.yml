@@ -1,0 +1,12 @@
+name: GI Bill Communication Toolkit for Principles of Excellence
+markdown: redcarpet
+permalink: /news/:year/:month/:day/:title/
+
+redcarpet:
+  extensions: ['hard_wrap', 'autolink']
+
+exclude: ['serve.sh', 'README.md', 'Rakefile']
+fileserver: 'http://com-toolkit-fileserver.herokuapp.com'
+marketing_link_url: ''
+verification_href: ''
+verification_src: ''
