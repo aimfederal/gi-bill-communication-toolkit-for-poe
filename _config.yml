@@ -7,8 +7,9 @@ redcarpet:
 
 exclude: ['serve.sh', 'README.md', 'Rakefile']
 fileserver: 'http://com-toolkit-fileserver.herokuapp.com'
-marketing_link_url: ''
-verification_href: ''
-verification_src: ''
+marketing_link_url: "'http://department-of-veterans-affairs.github.io/gi-bill-comparison-tool/'"
+verification_href: "'http://department-of-veterans-affairs.github.io/poe-school-verification?v=' + institution.facility_code"
+verification_src: "'http://department-of-veterans-affairs.github.io/poe/' + institution.facility_code + '.gif'"
+
 
 baseurl: '/gi-bill-communication-toolkit-for-poe'
